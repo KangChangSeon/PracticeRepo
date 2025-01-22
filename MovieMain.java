@@ -10,7 +10,7 @@ public class MovieMain {
         bw.write("관리할 영화 개수: ");
         bw.flush();
         int mvNum = Integer.parseInt(br.readLine());
-        MovieVO[][] mvArr = new MovieVO[mvNum][3];
+        MovieVO[][] mvArr = new MovieVO[mvNum][mvNum];
 
         for (int i = 0; i < mvNum; i++) {
             MovieVO mvVO = new MovieVO();
