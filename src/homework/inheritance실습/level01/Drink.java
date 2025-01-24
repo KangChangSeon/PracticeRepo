@@ -32,11 +32,11 @@ public class Drink {
     }
 
     public static void printTitle(){
-        System.out.println("상품명            단가           수량              금액");
+        System.out.println("상품명\t단가\t\t수량\t\t금액");
     }
 
     public void printData(){
-        System.out.printf("%-15s %-15d %-15d %-15d\n",name,price,count,getTotalPrice());
+        System.out.printf("%s\t\t%d\t%d\t\t%d\n",name,price,count,getTotalPrice());
     }
 
 }
