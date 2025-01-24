@@ -1,4 +1,4 @@
-package day13.homework.inheritance실습;
+package day13.homework.inheritance실습.level01;
 
 public class Drink {
     String name;

@@ -1,6 +1,6 @@
-package day13.homework.inheritance실습;
+package day13.homework.inheritance실습.level01;
 
-class Alcohol extends Drink{
+class Alcohol extends Drink {
 
     double alcper;
 

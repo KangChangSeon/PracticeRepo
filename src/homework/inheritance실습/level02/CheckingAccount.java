@@ -1,6 +1,6 @@
-package day13.homework.inheritance실습;
+package day13.homework.inheritance실습.level02;
 
-public class CheckingAccount extends Account{
+public class CheckingAccount extends Account {
     private String cardNo;
 
     public void setCardNo(String cardNo) {
