@@ -15,7 +15,7 @@ public class Student {
     public void calcReturnFee() {
         if (subject.equals("javaprogram")) {
             returnFee = (fee * 25.0) / 100;
-        } else if (subject.equals("jspprogram ")) {
+        } else if (subject.equals("jspprogram")) {
             returnFee = (fee * 20.0) / 100;
         } else {
             System.out.println("그런 과정명은 없습니다.");
