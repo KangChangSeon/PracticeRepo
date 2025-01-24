@@ -9,7 +9,7 @@ public class CheckingAccount extends Account {
     }
 
     public void pay(String cardNo, long amount){
-        if(cardNo.equals("1234-5678-8888") && amount <= super.getBalance()){
+        if(cardNo.equals("1234-5647-8888") && amount <= super.getBalance()){
             super.setBalance(super.getBalance() - amount);
         }else{
             System.out.println("지불이 불가능합니다.");
