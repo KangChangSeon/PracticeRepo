@@ -1,4 +1,4 @@
-package day13.다형성.Homework.Shape;
+package 다형성.Homework.Shape;
 
 public abstract class Shape {
    protected double area;

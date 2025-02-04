@@ -1,4 +1,4 @@
-package day13.다형성.Homework.Wheeler;
+package 다형성.Homework.Wheeler;
 
 public class Truck extends Wheeler {
 

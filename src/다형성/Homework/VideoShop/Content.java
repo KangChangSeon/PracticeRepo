@@ -1,4 +1,4 @@
-package day13.다형성.Homework.VideoShop;
+package 다형성.Homework.VideoShop;
 
 public abstract class Content {
     private String title;

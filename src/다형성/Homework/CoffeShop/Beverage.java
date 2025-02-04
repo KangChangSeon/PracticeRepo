@@ -1,4 +1,4 @@
-package day13.다형성.Homework.CoffeShop;
+package 다형성.Homework.CoffeShop;
 
 abstract public class Beverage {
     private String name;

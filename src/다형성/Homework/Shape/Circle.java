@@ -1,4 +1,4 @@
-package day13.다형성.Homework.Shape;
+package 다형성.Homework.Shape;
 
 public class Circle extends Shape {
    private double radius;
