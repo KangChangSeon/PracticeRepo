@@ -1,7 +1,5 @@
 package InterfaceAnimal;
 
-import day3.InterfaceAnimal.Animal;
-
 public class Dog extends Animal {
 
 

@@ -1,4 +1,4 @@
-package day12.inher;
+package inher;
 
 
 class Parent{

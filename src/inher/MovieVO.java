@@ -1,4 +1,5 @@
-//
+package inher;
+
 public class MovieVO {
     private String Title;
     private String OpenDay;
