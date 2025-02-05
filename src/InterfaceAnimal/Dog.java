@@ -1,6 +1,8 @@
 package InterfaceAnimal;
 
-public class Dog extends Animal{
+import day3.InterfaceAnimal.Animal;
+
+public class Dog extends Animal {
 
 
     public Dog(int speed) {
@@ -9,7 +11,6 @@ public class Dog extends Animal{
 
     @Override
     public void run(int hours) {
-        this.hours = hours;
         setDistance(getSpeed()*(double)hours/2);
         System.out.printf("개의 이동거리 = %.1f\n",getDistance());
     }

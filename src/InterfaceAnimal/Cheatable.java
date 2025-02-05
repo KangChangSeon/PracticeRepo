@@ -1,5 +1,5 @@
 package InterfaceAnimal;
 
 public interface Cheatable {
-    public void fly(int hours);
+    public void fly();
 }
