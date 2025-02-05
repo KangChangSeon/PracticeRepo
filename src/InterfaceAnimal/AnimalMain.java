@@ -1,10 +1,5 @@
 package InterfaceAnimal;
 
-import day3.InterfaceAnimal.Animal;
-import day3.InterfaceAnimal.Cheatable;
-import day3.InterfaceAnimal.Chicken;
-import day3.InterfaceAnimal.Dog;
-
 public class AnimalMain {
     public static void main(String[] args) {
         Animal dog = new Dog(8);
@@ -16,13 +11,10 @@ public class AnimalMain {
         }
 
         for(int i=1; i<4; i++){
-            cheatableChicken.setHours(i);
             System.out.println(i+"시간 후");
             dog.run(i);
             chicken.run(i);
-            cheatableChicken.fly();
+            cheatableChicken.run(i);
         }
-
     }
-
 }
