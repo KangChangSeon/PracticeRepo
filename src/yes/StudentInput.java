@@ -1,5 +1,7 @@
 package yes;
 
 public interface StudentInput {
-    String inputstuData();
+
+
+    public Student inputstuData();//입력받은 학생 데이터를 List로 저장
 }

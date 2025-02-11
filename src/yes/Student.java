@@ -1,7 +1,9 @@
 package yes;
 
-import java.util.Scanner;
+import lombok.Data;
 
+import java.util.Scanner;
+@Data
 public class Student {
     //필수멤버
     private String sno;
@@ -23,8 +25,6 @@ public class Student {
 //    private char scienceGrade;
 
     private int cnt;
-
-
     static Scanner sc = new Scanner(System.in);
 
     private Student(StudentBuilder studentBuilder) {
@@ -144,6 +144,8 @@ public class Student {
             return new Student(this);
             }
         }
+
+
     @Override
     public String toString() {
         String result = "학번: " + sno +", 이름: "+name ;

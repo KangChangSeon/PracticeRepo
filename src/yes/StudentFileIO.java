@@ -3,8 +3,9 @@ package yes;
 import java.util.List;
 
 public class StudentFileIO extends StudentDBIO{
-    static final StudentIFileIO INSTANCE = null; //임시 초기화
-
+    static final StudentIFileIO INSTANCE = null;
+    //임시 초기화
+    private void StudentFileIO(){}
     @Override
     public List<String> saveStudntData() {
         return List.of();
@@ -46,8 +47,8 @@ public class StudentFileIO extends StudentDBIO{
     }
 
     @Override
-    public String inputstuData() {
-        return "";
+    public Student inputstuData() {
+        return null;
     }
 
     @Override
